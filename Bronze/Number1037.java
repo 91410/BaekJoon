@@ -10,9 +10,8 @@ public class Number1037 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         ArrayList<Integer> numArr = new ArrayList<>();              // 약수들의 모음
-
-
-        int num = Integer.parseInt(br.readLine());                  // 약수들의 종 갯수
+        
+        int num = Integer.parseInt(br.readLine());                  // 약수들의 총 갯수
         StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < num; i++){
             numArr.add(Integer.parseInt(st.nextToken()));           // 약수를 리스트에 추가
